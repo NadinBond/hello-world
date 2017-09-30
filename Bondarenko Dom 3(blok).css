@@ -1,0 +1,28 @@
+div{
+	outline:2px solid black
+}
+.header{
+	color:green;
+	background-color:pink;
+}
+.row:after{
+	display:block;
+	clear:both;
+	content:"";
+}
+.col_1_4{
+	width:25%;
+   float:left;
+}
+.col_3_4{
+	width:75%
+	float:left;
+}
+.col_1_2{
+	width:50%
+	float:left;
+}
+.col_7_8{
+	clear:both;
+}
+
